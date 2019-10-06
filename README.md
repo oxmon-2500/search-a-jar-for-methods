@@ -1,10 +1,11 @@
 ## search a jar for classes containing a specified method name
 
-usage:<br>
-&nbsp;./findClassMethod.sh jar-path [method-name]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;jar-path    - if alone, list all classes from the jar<br>
-&nbsp;&nbsp;&nbsp;&nbsp;method-name - list only classes containing the method-name<br>
+usage:
+    findClassMethod.sh __jar-path__ [__method-name__]
+        __jar-path__    - if alone, list all classes from the jar
+        __method-name__ - list only classes containing the method-name
 
-&nbsp;&nbsp;examples: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;__./findClassMethod.sh__ /usr/java/jdk1.8/jre/lib/ext/dnsns.jar lookupAllHostAddr<br>
-&nbsp;&nbsp;&nbsp;&nbsp;find path -type f -name '*.jar' -exec __./findClassMethod.sh__ {} methodXY \;<br>
+examples:
+    __./findClassMethod.sh__ /usr/java/jdk1.8/jre/lib/ext/dnsns.jar lookupAllHostAddr<br>
+    find path -type f -name '*.jar' -exec __./findClassMethod.sh__ {} methodXY \;<br>
+

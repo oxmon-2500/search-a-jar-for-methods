@@ -15,9 +15,9 @@ examples:<br/>
 
 sample output:
 <style>
- #pr {background-color:black; color:white;}
- #cl {color:green;}
- #mt {color:red}
+ #user-content-pr {background-color:black; color:white;}
+ #user-content-cl {color:green;}
+ #user-content-mt {color:red}
 </style>
 		
 <pre id="pr">

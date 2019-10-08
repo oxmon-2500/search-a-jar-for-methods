@@ -14,13 +14,13 @@ examples:<br/>
 </pre>
 
 sample output:
-      <style>
-         #pr {background-color:black; color:white;}
-         #cl {color:green;}
-         #mt {color:red}
-      </style>
+<style>
+ #pr {background-color:black; color:white;}
+ #cl {color:green;}
+ #mt {color:red}
+</style>
 		
-		<pre id="pr">
+<pre id="pr">
 $ ./findClassMethod.sh test/test_jar.jar toString
 --------------test/test_jar.jar-------------------
 Compiled from "FailedError.java"
@@ -41,4 +41,4 @@ public final class <span style="color:green">org.szb.ObjWrapper</span> implement
   public java.lang.String <span id="mt">toString</span>();
   static {};
 }
-		</pre>
+</pre>

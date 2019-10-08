@@ -14,17 +14,23 @@ examples:<br/>
 </pre>
 
 sample output:
-<pre style="background-color:black; color:white">
+      <style>
+         #pr {background-color:black; color:white;}
+         #cl {color:green;}
+         #mt {color:red}
+      </style>
+		
+		<pre id="pr">
 $ ./findClassMethod.sh test/test_jar.jar toString
 --------------test/test_jar.jar-------------------
 Compiled from "FailedError.java"
-public class <span style="color:green">org.szb.FailedError</span> extends java.lang.AssertionError {
+public class <span id="cl">org.szb.FailedError</span> extends java.lang.AssertionError {
   public org.szb.FailedError();
   public boolean isExpectedDefined();
   public boolean isActualDefined();
   public org.szb.ObjWrapper getExpected();
   public org.szb.ObjWrapper getActual();
-  public java.lang.String <span style="color:red">toString</span>();
+  public java.lang.String <span id="mt">toString</span>();
 }
 Compiled from "ObjWrapper.java"
 public final class <span style="color:green">org.szb.ObjWrapper</span> implements java.io.Serializable {
@@ -32,7 +38,7 @@ public final class <span style="color:green">org.szb.ObjWrapper</span> implement
   public java.io.Serializable getValue();
   public java.lang.String getStringRepresentation();
   public int getIdentityHashCode();
-  public java.lang.String <span style="color:red">toString</span>();
+  public java.lang.String <span id="mt">toString</span>();
   static {};
 }
-</pre>
+		</pre>
